@@ -1,0 +1,30 @@
+{
+  "name": "polling-system-api",
+  "version": "1.0.0",
+  "description": "Polling system API is developed using Node.Js, MongoDB and Postman API's",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swastikjhacoder/polling-system-api.git"
+  },
+  "keywords": [
+    "polling"
+  ],
+  "author": "Swastik Jha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swastikjhacoder/polling-system-api/issues"
+  },
+  "homepage": "https://github.com/swastikjhacoder/polling-system-api#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1",
+    "nodemon": "^3.0.1"
+  }
+}
